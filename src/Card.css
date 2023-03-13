@@ -1,0 +1,52 @@
+.Card {
+    width: min(90%, 70rem);
+    margin-inline: auto;
+}
+
+.Card .wrapper {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.Card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Card .details {
+    color: white;
+    font-size: clamp(1.1rem ,1.1rem + 3vw, 1.5rem);
+    border: 2px solid goldenrod;
+    outline: 7px solid black;
+    box-shadow: inset 0px 0px 20px gold;
+    padding: 1.5em;
+    text-transform: uppercase;
+    line-height: 1.75;
+}
+
+.Card button {
+    cursor: pointer;
+    padding: 2em 1em;
+    border: 3px solid black;
+    border-radius: 1em;
+    transition: all 0.3s ease;
+}
+
+.Card button:is(:hover, :focus-visible) {
+    opacity: 0.8;
+    scale: 1.125;
+}
+
+.Card button:active {
+    opacity: 0.6;
+}
+
+.Card .next-btn {
+
+}   
+
+.Card .prev-btn {
+
+}
